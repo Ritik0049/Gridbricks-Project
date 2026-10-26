@@ -1,0 +1,17 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, sans-serif; background: #f6f7f9; color: #1d2433; }
+.wrap { max-width: 1100px; margin: 0 auto; padding: 24px 16px; }
+h1 { margin: 0 0 4px; font-size: 24px; }
+.sub { margin: 0 0 20px; color: #5b6475; }
+.controls { display: flex; flex-wrap: wrap; gap: 16px; align-items: end; background: #fff; padding: 16px; border-radius: 10px; border: 1px solid #e3e6eb; }
+.controls label { display: flex; flex-direction: column; gap: 6px; font-size: 13px; color: #5b6475; }
+.controls input[type="date"] { padding: 6px 8px; border: 1px solid #cfd4dc; border-radius: 6px; }
+.slider { min-width: 260px; flex: 1; }
+.cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin: 16px 0; }
+.card { background: #fff; border: 1px solid #e3e6eb; border-radius: 10px; padding: 14px; }
+.card .k { font-size: 12px; color: #5b6475; }
+.card .v { font-size: 22px; font-weight: 600; margin-top: 4px; }
+.insight { background: #eaf3ff; border: 1px solid #c9defa; border-radius: 10px; padding: 14px; margin-bottom: 16px; }
+.panel { background: #fff; border: 1px solid #e3e6eb; border-radius: 10px; padding: 16px; margin-bottom: 16px; }
+.panel h2 { font-size: 16px; margin: 0 0 12px; }
+.err { color: #b42318; }
