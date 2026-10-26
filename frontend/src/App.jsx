@@ -61,7 +61,7 @@ export default function App() {
         </label>
         <label className="slider">
           Forecast horizon: {horizon}h before delivery
-          <input type="range" min="0" max="48" step="1" value={horizon}
+          <input type="range" min="0" max="42" step="1" value={horizon}
             onChange={(e) => setHorizon(Number(e.target.value))} />
         </label>
       </div>
